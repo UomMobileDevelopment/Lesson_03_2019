@@ -23,7 +23,7 @@
 
 
 
-[[https://developer.android.com/images/activity_lifecycle.png|alt=activity]]
+![activity](https://developer.android.com/images/activity_lifecycle.png)
 
 
 
