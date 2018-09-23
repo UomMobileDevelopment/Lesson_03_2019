@@ -41,7 +41,6 @@
         android:scrollHorizontally="false"
         android:scrollIndicators="right|end"
         android:scrollbars="vertical"
-        android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
