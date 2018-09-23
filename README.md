@@ -17,7 +17,11 @@
   - try to create a button counter message and append it on textView
   
 8. To make textView scrollable, we must define a movementMethod on it (`setMovementMethod(new ScrollingMovementMethod());`) 
+9. Change orientation and see what happens!
+10. Activity Lifecycle
+11. Use Saved Instance state to keep text in textView
 
+https://developer.android.com/images/activity_lifecycle.png
 
 
 
