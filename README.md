@@ -21,7 +21,9 @@
 10. Activity Lifecycle
 11. Use Saved Instance state to keep text in textView
 
-https://developer.android.com/images/activity_lifecycle.png
+
+
+[[https://developer.android.com/images/activity_lifecycle.png|alt=activity]]
 
 
 
