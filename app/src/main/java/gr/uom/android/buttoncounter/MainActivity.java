@@ -1,7 +1,6 @@
 package gr.uom.android.buttoncounter;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -13,7 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
-
+    private static final String TEXT_CONTENTS = "MainActivity_TextViewContents";
     private  EditText userInput;
     private Button button;
     private TextView textView;
@@ -79,14 +78,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+    public void onSaveInstanceState(Bundle outState) {
         Log.d(TAG, "onSaveInstanceState: in");
-        super.onSaveInstanceState(outState, outPersistentState);
+        outState.putString(TEXT_CONTENTS, textView.getText().toString());
+        super.onSaveInstanceState(outState);
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         Log.d(TAG, "onRestoreInstanceState: in");
         super.onRestoreInstanceState(savedInstanceState);
+        String savedString = savedInstanceState.getString(TEXT_CONTENTS);
+        textView.setText(savedString);
     }
 }
