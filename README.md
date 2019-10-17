@@ -1,6 +1,6 @@
 # Lesson_03_2019-20
 
-** Create a new app named Button Click Counter (min api 17) **
+ ** Create a new app named Button Click Counter (min api 17) **
 
 1. add a Button, PlainText and TextView widgets
 2. set constraints among them
