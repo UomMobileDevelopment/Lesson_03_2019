@@ -1,4 +1,4 @@
-# Lesson_03_2019-20
+# Lesson_03_2019
 
  ** Create a new app named Button Click Counter (min api 17) **
 
